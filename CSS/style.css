@@ -80,6 +80,10 @@ main form .password-container i{
 }
 main form .password-container #eye{
     display: none;
+    color: #020202;
+}
+main form .password-container #eye-slash{
+    color: #020202;
 }
 main form .password-infos{
     width: 90%;
@@ -91,9 +95,6 @@ main form .password-infos{
 }
 main form .password-infos a{
     transition: 0.25 ease-in-out;
-}
-main form .password-infos a:hover{
-    color: #18acfe;
 }
 main form button{
     background-color: #18acfe;
@@ -171,4 +172,37 @@ main form .links-container aside .facebook:hover{
     background-color: #14a0f9;
     color: #fff;
 
+}
+main form footer{
+    width: 100%;
+    margin-top: 10%;
+
+    display: flex;
+    flex-direction: column;
+}
+main form footer hr{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+main form footer span{
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 5%;
+}
+main form footer a {
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+.hiperlink{
+    color: #fff;
+}
+.hiperlink:hover{
+    text-decoration:underline; 
+}
+span{
+    color: #fff;
 }
