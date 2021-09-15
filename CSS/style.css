@@ -197,9 +197,12 @@ main form footer a {
     font-weight: 600;
     transition: 0.2s ease-in-out;
 }
+span{
+    color: #fff;
+    font-weight: 400;
+}
 
-
-
+/* Classes */
 .hiperlink{
     color: #fff;
     
@@ -207,15 +210,11 @@ main form footer a {
 .hiperlink:hover{
     text-decoration:underline; 
 }
-span{
-    color: #fff;
-    font-weight: 400;
-}
+
+/* IDs */
 #esqueceuSenha{    
-    
     padding-left: 6px;
 }
 #cadastre-se{
-    
     padding-left: 2%;
 }
